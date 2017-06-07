@@ -1,0 +1,10 @@
+name: test-environment
+channels:
+- defaults
+dependencies:
+- python=3.5.3=1
+- numpy=1.12.1=py35_0
+- pandas=0.20.2=np112py35_0
+- pytest=3.1.1=py35_0
+- pytest-cov=2.3.1=py35_0
+
