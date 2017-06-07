@@ -1,5 +1,7 @@
 
-[![Build Status](https://travis-ci.org/OrangeBoreal/PGM.svg?branch=master)](https://travis-ci.org/OrangeBoreal/PGM)
+[![Build Status](https://travis-ci.org/OrangeBoreal/PGM.svg?branch=master)](https://travis-ci.org/OrangeBoreal/PGM) [![codecov](https://codecov.io/gh/OrangeBoreal/PGM/branch/master/graph/badge.svg)](https://codecov.io/gh/OrangeBoreal/PGM)
+
+
 
 # PGM
 
