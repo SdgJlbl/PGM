@@ -30,6 +30,7 @@ def test_observe_evidence():
     assert_frame_equal(factor1.values, observe_evidence(factor1, evidences).values)
     factor2bis = Factor.from_scratch(variables=['v1', 'v2'], variable_cardinalities=[2, 2], values=[.59, 0, .22, 0])
     assert_frame_equal(factor2bis.values, observe_evidence(factor2, evidences).values)
+    assert factor2.values.iloc[1]['phi'] != 0
     factor3bis = Factor.from_scratch(variables=['v2', 'v3'], variable_cardinalities=[2, 2], values=[0, .61, 0, 0])
     assert_frame_equal(factor3bis.values, observe_evidence(factor3, evidences).values)
 
