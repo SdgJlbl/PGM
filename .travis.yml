@@ -15,7 +15,6 @@ install:
   - conda info -a
   - conda env create  -q -f environment.yml
   - source activate test-environment
-  - pip install -e .
   - conda list
 
 script:
