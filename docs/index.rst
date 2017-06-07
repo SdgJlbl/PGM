@@ -6,9 +6,14 @@
 Welcome to PGM's documentation!
 ===============================
 
+PGM (Probabilistic Graphical Models) is a short Python project for playing around with Bayesian Networks and other
+Probabilistic Graphical Models. It is a Work in Progress for now.
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+
+.. automodule:: core
 
 
 
