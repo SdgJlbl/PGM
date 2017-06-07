@@ -8,6 +8,11 @@ marginal = Factor.from_scratch(variables=['v2', 'v3'], variable_cardinalities=[2
                                values=[.0858, .0468, .1342, .7332])
 
 
+def test_variable_ordering_independence():
+    factor2bis = Factor.from_scratch(variables=['v2', 'v1'], variable_cardinalities=[2, 2], values=[.59, .22, .41, .78])
+    assert factor2 == factor2bis
+
+
 def test_factor_product():
     factor = Factor.from_scratch(variables=['v1', 'v2'], variable_cardinalities=[2, 2],
                                  values=[.0649, .0451, .1958, .6942])

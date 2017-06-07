@@ -10,7 +10,7 @@ class Factor(object):
     def __init__(self, df):
         assert df.columns == ['phi']
         names = df.index.names
-        self.values = df.reset_index().reindex_axis(sorted(chain(df.columns, names)), axis=1).set_index(names)
+        self.values = df.reset_index().set_index(sorted(names)).sort_index()
 
     @classmethod
     def from_scratch(cls, variables, variable_cardinalities, values=None):
