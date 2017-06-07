@@ -3,7 +3,6 @@ import operator
 from functools import reduce
 import numpy as np
 import pandas as pd
-from itertools import chain
 
 
 class Factor(object):
@@ -29,9 +28,6 @@ class Factor(object):
     @property
     def variable_cardinalities(self):
         return list(map(len, self.values.index.levels))
-
-    def normalize(self):
-        self.values = self.values / self.values.sum()
 
     def __mul__(self, other):
         return factor_product(self, other)
