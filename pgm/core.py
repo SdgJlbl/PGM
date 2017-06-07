@@ -21,19 +21,20 @@ class Factor(object):
         A dataframe containing the values of the factor; variables are in the lexicographic order of the names; rows are
         ordered according to the variable values.
         Eg :
-        -----------------
-        |         | phi |
-        -----------------
+
+        +----+----+-----+
+        |    |    | phi |
+        +----+----+-----+
         | v1 | v2 |     |
-        -----------------
+        +====+====+=====+
         |  0 |  0 | 0.1 |
-        -----------------
+        +----+----+-----+
         |  0 |  1 | 0.9 |
-        -----------------
+        +----+----+-----+
         |  1 |  0 | 0.7 |
-        -----------------
+        +----+----+-----+
         |  1 |  1 | 0.3 |
-        -----------------
+        +----+----+-----+
 
     """
     def __init__(self, df):

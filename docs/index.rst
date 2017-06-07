@@ -13,7 +13,8 @@ Probabilistic Graphical Models. It is a Work in Progress for now.
    :maxdepth: 2
    :caption: Contents:
 
-.. automodule:: core
+.. automodule:: pgm.core
+    :members:
 
 
 
