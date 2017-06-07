@@ -1,5 +1,5 @@
 
-#[![Build Status](https://travis-ci.org/OrangeBoreal/PGM.svg?branch=master)](https://travis-ci.org/OrangeBoreal/PGM)
+[![Build Status](https://travis-ci.org/OrangeBoreal/PGM.svg?branch=master)](https://travis-ci.org/OrangeBoreal/PGM)
 
 # PGM
 
