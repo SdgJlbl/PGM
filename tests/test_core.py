@@ -32,5 +32,5 @@ def test_observe_evidence():
 def test_compute_joint_distribution():
     joint_factor = Factor.from_scratch(variables=['v1', 'v2', 'v3'],
                                        variable_cardinalities=[2, 2, 2],
-                                       values=[.025311, .076362, .002706, .041652, .039589, .119438, .042394, .652548])
-    # assert_frame_equal(joint_factor.values, compute_joint_distribution([factor1, factor2, factor3]).values)
+                                       values=[.025311, .039589, .002706, .042394, .076362, .119438, .041652, .652548])
+    assert_frame_equal(joint_factor.values, compute_joint_distribution([factor1, factor2, factor3]).values)
