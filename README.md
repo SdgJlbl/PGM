@@ -1,5 +1,5 @@
 
-[![Build Status](https://travis-ci.org/OrangeBoreal/PGM.svg?branch=master)](https://travis-ci.org/OrangeBoreal/PGM) [![codecov](https://codecov.io/gh/OrangeBoreal/PGM/branch/master/graph/badge.svg)](https://codecov.io/gh/OrangeBoreal/PGM) [![Documentation Status](https://readthedocs.org/projects/pgm-bayes-nets/badge/?version=latest)](http://pgm-bayes-nets.readthedocs.io/en/latest/?badge=latest)
+[![Build Status](https://travis-ci.org/SdgJlbl/PGM.svg?branch=master)](https://travis-ci.org/SdgJlbl/PGM) [![codecov](https://codecov.io/gh/SdgJlbl/PGM/branch/master/graph/badge.svg)](https://codecov.io/gh/SdgJlbl/PGM) [![Documentation Status](https://readthedocs.org/projects/pgm-bayes-nets/badge/?version=latest)](http://pgm-bayes-nets.readthedocs.io/en/latest/?badge=latest)
 
 # PGM
 
